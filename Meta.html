@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<!-- name, http-equiv, property и content для мета-тегов -->
+	<!-- 1)Основные мета-теги для отображения страницы -->
+	<!-- Кодировка страницы -->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<!-- С появлением HTML5 можно использовать  -->
+	<meta charset="UTF-8">
+	<!-- настройка адаптивности страницы -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,
+	maximum-scale=1.0, user-scalable=0">
+	<!-- ширина контента по ширине устройства; масштаб - 1; макс. масштаб - 1;
+	масштабирование контента = 0 -->
+	<meta name="viewport" content="width=1300">
+	<!-- фиксированная ширина -->
+	<meta name="format-detection" content="telephone=no">
+	<!-- отключение ссылки на телефон у IOS и MAC -->
+	<!-- 2) Мета-теги для SEO-оптимизации  -->
+	<meta name="description" content="meta-tags are great">
+	<!-- описание страницы до 140 символов -->
+	<meta name="keywords" content="meta, meta-tags, tags, html, html-tags">
+	<!-- ключевые слова страницы до 20 слов -->
+	<meta name="robots" content="none">
+	<!-- запрещена индексация (то же самое: noindex, nofollow) -->
+	<!-- доступ поисковых роботов к сайту - индексация (парсинг сайта 
+	и занесение в БД для релевантного поиска по запросу пользователя)
+	по умолчанию - включён
+	noindex - запрет индексации содержимого сайта 
+	nofollow - игнорировать ссылки на сайте
+	noimageindex - игнорировать изображения на сайте
+	noarchive - отсутствие кнопки: сохраненная копия в поисковике
+	nosnippet - отсутствие содержания под названием сайта в поисковике -->
+	<!-- 3) Технические мета-теги -->
+	<meta name="Author" content="Nikolay Petrov">
+	<!-- указание автора -->
+	<meta name="Copyright" content="Egor Karpov">
+	<!-- авторские права -->
+	<meta name="Address" content="ул.Ленина, 97/2">
+	<!-- адрес автора -->
+	<meta http-equiv="refresh" content="4; url=index.html">
+	<!-- Редирект (переход) или перезагрузка страницы;
+	в content - задержка в секундах и ссылка на сайт, который переходить -->
+	<!-- 4) Мета-теги для соц. сетей -->
+	<!-- у ВК автоматически оформляются посты -->
+	<!-- Facebook - протокол Open Graph -->
+	<!-- валидатор для проверки https://developers.facebook.com/tools/debug/sharing/ -->
+	<!-- локализация сайта, для русскоязычного сайта ru_RU -->
+	<meta property="og:locale" content="ru_RU">
+	<!-- тип контента, по умолчанию используется article -->
+	<meta property="og:type" content="article">
+	<!-- заголовок страницы, который будет выводится в записи социальной сети -->
+	<meta property="og:title" content="META теги">
+	<!-- описание страницы -->
+	<meta property="og:description" content="Описание страницы про META теги">
+	<!-- ссылка на изображение, которое будет публиковаться в записи -->
+	<meta property="og:image" content="IMG/content/avatar_3.jpg">
+	<!-- ссылка на текущую страницу -->
+	<meta property="og:url" content="Next2.html">
+	<!-- название сайта -->
+	<meta property="og:site_name" content="Красавчик по жизни">
+	<!-- так же есть og:audio и og:video - сопровождение мелодией и видео -->
+	<!-- og:audio:width - указание свойств медиафайла и других -->
+	<!-- можно добавлять несколько картинок, медиа- видеофайлов, 
+		продублировав мета-тег -->
+	<!-- Твиттер - карты -->
+	<!-- валидатор для проверки https://cards-dev.twitter.com/validator -->
+	<!-- Тип карты, по умолчанию используется summary -->
+	<meta name="twitter:card" content="summary">
+	<!-- Имя/логин автора -->
+	<meta name="twitter:site" content="Колян">
+	<!-- Название страницы -->
+	<meta name="twitter:title" content="META теги">
+	<!-- Описание страницы -->
+	<meta name="twitter:description" content="про META теги">
+	<!-- Cсылка на изображение -->
+	<meta name="twitter:image" content="IMG/content/avatar_3.jpg">
+	<!------------------------------------------------------------------>
+	<link rel="stylesheet" href="css/styles_next2.css">
+	<title>CSS</title>
+</head>
+<body>
+	<div class="error">Ошибка 404</div>
+	<div class="msg">Вы будете перенаправлены через 5 сек</div>
+</body>
+</html>
